@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1579391251010714}
+  m_IsPrefabParent: 1
+--- !u!1 &1579391251010714
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4081379948586536}
+  - component: {fileID: 114310354547618970}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Manager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4081379948586536
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1579391251010714}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114310354547618970
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1579391251010714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d80e31944d3e43046927761efe40a177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 0}
+  finalTimerText: {fileID: 0}
+  walls: {fileID: 0}
+  brick: {fileID: 1115596946938156, guid: ecde70ee9db45c14c82d13be072d71d7, type: 2}
+  finishBrick: {fileID: 1628504545054890, guid: f936fb3bda4d7cd4c9d68f952e094f48,
+    type: 2}
+  obstacles: {fileID: 0}
+  obstacle: {fileID: 1290788681944056, guid: 50d8ac7afe54d984394b2e6e3404edaf, type: 2}
+  numOfObstacles: 5
+  minDistance: 1
+  obstacleRadius: 1
+  xSize: 10
+  ySize: 50
+  xMultiplier: 4
+  yMultiplier: 5
+  seed: burak
+  useRandomSeed: 0
+  gameFinished: 0
